@@ -16,8 +16,9 @@ const Navbar = () => {
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <Link href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse">
-            <Image src="/logo.png" alt="logo" width={32} height={32} />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">AWS</span>
+            <Image src="/logo.png" className="hidden dark:block" alt="logo" width={56} height={56} />
+            <Image src="/logo-noir.png" className="block dark:hidden" alt="logo" width={56} height={60} />
+            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">{''}</span>
           </Link>
           <div className="md:hidden">
             <button

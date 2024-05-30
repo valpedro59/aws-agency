@@ -11,12 +11,12 @@ const WhyUs = () => {
                 <p className="mb-8 lg:mb-16 font-light text-center text-slate-500 dark:text-slate-400 sm:text-xl">3 Points essentiels pour nous faire confiance.</p>
 
                 <div className='flex flex-col-reverse gap-6  lg:flex-row lg:gap-2 rounded-lg shadow-lg py-6 px-6'>
-                    <div className='lg:w-[50%] md:flex flex flex-col-reverse'>
+                    <div className='lg:w-[50%] md:flex-row flex flex-col-reverse'>
                         <div className='flex flex-col items-center justify-center gap-4'>
                             <p className='text-slate-600 font-light'>Nous aidons les marques à se développer en concevant et en développant des idées stratégiques et de la créativité dans collaboration pour atteindre les objectifs.</p>
                             <Link href='/contact' className="btn-blue text-lg dark:hover:shadow-bleu">Contactez-Nous</Link>
                         </div>
-                        <Image src='whyus.png' alt='why us' width={300} height={400} />
+                        <Image src='/whyus.png' alt='why us' width={300} height={400} />
                     </div>
                     <div className='flex flex-col space-y-4 lg:w-[50%]'>
                         <div>

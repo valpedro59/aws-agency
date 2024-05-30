@@ -9,8 +9,8 @@ const Footer = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
               <Link href="/" className="flex items-center">
-                  <Image src="/logo.png" className="h-8 me-3" alt="FlowBite Logo" width={32} height={32}/>
-                  <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">AWS</span>
+                  <Image src="/logo.png" className="h-8 me-3" alt="FlowBite Logo" width={56} height={56}/>
+                  <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">{''}</span>
               </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
