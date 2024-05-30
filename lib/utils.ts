@@ -3,7 +3,7 @@ import { FormData } from '@/components/contact';
 
 export default function sendEmail(data: FormData) {
 
-    const response = fetch('api/email', {
+    const response = fetch('/api/email', {
         method: 'POST',
         headers: {
             'content-type': 'application/json'
