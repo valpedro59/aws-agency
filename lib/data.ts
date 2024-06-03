@@ -91,12 +91,12 @@ export const services = [
         imgURL:"/services/audio.jpg",
         subtext: "Un bon design est bon pour les affaires, toutes les marques que nous voyons autour de nous réussissent grâce à leur design. Le design est bien plus que des formes colorées et des polices élégantes.",
         option: [
+            {label: "Montage photo et videos"},
             {label: "Filmer des événements"},
             {label: "Tournage des évenements"},
-            {label: "Excursion, Baptemes"},
+            {label: "Excursion, Baptêmes"},
             {label: "Sonorisation, Mariage"},
             {label: "Conception de Modèles"},
-            {label: "Montage photo et videos"},
                 ],      
     },
     

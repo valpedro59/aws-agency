@@ -1,4 +1,5 @@
 import Contact from "@/components/contact";
+import Link from "next/link";
 import React from "react";
 
 const page = () => {
@@ -7,12 +8,11 @@ const page = () => {
       <div className="max-w-screen-lg py-8 lg:py-16 px-4 mx-auto">
         <div>
           <h3 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-slate-900 dark:text-white capitalize">
-            Si vous voulez nous contacter
+            Contact
           </h3>
           <p className="mb-8 lg:mb-16 font-light text-center text-slate-500 dark:text-slate-400 sm:text-xl">
             Nous apprécions vos commentaires, demandes de renseignements et
-            suggestions. Si vous avez des questions ou avez besoin d'aide,
-            n'hésitez pas à nous contacter. Nous sommes ici pour aider!
+            suggestions. N'hésitez pas à nous contacter. Nous sommes ici pour aider!
           </p>
           <div className="flex flex-col-reverse gap-8 lg:flex-row md:space-x-4 items-center">
             <div>
@@ -30,9 +30,11 @@ const page = () => {
             >
               <path d="M7.978 4a2.553 2.553 0 0 0-1.926.877C4.233 6.7 3.699 8.751 4.153 10.814c.44 1.995 1.778 3.893 3.456 5.572 1.68 1.679 3.577 3.018 5.57 3.459 2.062.456 4.115-.073 5.94-1.885a2.556 2.556 0 0 0 .001-3.861l-1.21-1.21a2.689 2.689 0 0 0-3.802 0l-.617.618a.806.806 0 0 1-1.14 0l-1.854-1.855a.807.807 0 0 1 0-1.14l.618-.62a2.692 2.692 0 0 0 0-3.803l-1.21-1.211A2.555 2.555 0 0 0 7.978 4Z" />
             </svg>
-            <p className="text-sm font-medium text-slate-900 dark:text-slate-300">
-              (212) 06 01 02 03 04
-            </p>
+            <Link href='tel:+212615134801' >
+              <p className="text-sm font-medium text-slate-900 dark:text-slate-300">
+                (212) 06 15 13 48 01
+              </p>
+            </Link>
           </div>
           <div className="flex space-x-2 items-center">
             <svg
@@ -47,10 +49,30 @@ const page = () => {
               <path d="M2.038 5.61A2.01 2.01 0 0 0 2 6v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6c0-.12-.01-.238-.03-.352l-.866.65-7.89 6.032a2 2 0 0 1-2.429 0L2.884 6.288l-.846-.677Z" />
               <path d="M20.677 4.117A1.996 1.996 0 0 0 20 4H4c-.225 0-.44.037-.642.105l.758.607L12 10.742 19.9 4.7l.777-.583Z" />
             </svg>
-
-            <p className="text-sm font-medium text-slate-900 dark:text-slate-300">
-              contact@apotrewellsolutions.com
-            </p>
+            <Link href="mailto:contact@apotrewellsolutions.com">
+              <p className="text-sm font-medium text-slate-900 dark:text-slate-300">
+                contact@apotrewellsolutions.com
+              </p>
+            </Link>
+          </div>
+          <div className="flex space-x-2 items-center">
+            <svg
+              className="w-6 h-6 text-slate-900 dark:text-blue-500"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path d="M2.038 5.61A2.01 2.01 0 0 0 2 6v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6c0-.12-.01-.238-.03-.352l-.866.65-7.89 6.032a2 2 0 0 1-2.429 0L2.884 6.288l-.846-.677Z" />
+              <path d="M20.677 4.117A1.996 1.996 0 0 0 20 4H4c-.225 0-.44.037-.642.105l.758.607L12 10.742 19.9 4.7l.777-.583Z" />
+            </svg>
+            <Link href="apotrewellsolutions@gmail.com">
+              <p className="text-sm font-medium text-slate-900 dark:text-slate-300">
+              apotrewellsolutions@gmail.com 
+              </p>
+            </Link>
           </div>
           <div className="flex space-x-2 items-center">
             <svg
