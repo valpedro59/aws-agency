@@ -1,8 +1,15 @@
 import Contact from '@/components/contact';
 import { projects } from '@/lib/data';
+import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+
+export const metadata: Metadata = {
+    title: 'Portfolio',
+    description: "Nos modeles prêts à l'emploi"
+}
+
 
 const page = () => {
     return (

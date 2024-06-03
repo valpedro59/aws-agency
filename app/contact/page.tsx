@@ -1,6 +1,13 @@
 import Contact from "@/components/contact";
+import { Metadata } from "next";
 import Link from "next/link";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: 'Contact',
+  description: "Retrouvez toutes nos coordonnées"
+}
+
 
 const page = () => {
   return (
