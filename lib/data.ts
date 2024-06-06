@@ -89,7 +89,7 @@ export const services = [
         id: "media",
         name: "Audiovisuel & Media",
         imgURL:"/services/audio.jpg",
-        subtext: "Un bon design est bon pour les affaires, toutes les marques que nous voyons autour de nous réussissent grâce à leur design. Le design est bien plus que des formes colorées et des polices élégantes.",
+        subtext: "Propulsez votre marque et obtenez des résultats avec une  vidéo de qualité. Démarrez votre projet vidéo dès maintenant. Production vidéo à haut gamme, précise, rapide avec un budget modeste.",
         option: [
             {label: "Montage photo et videos"},
             {label: "Filmer des événements"},

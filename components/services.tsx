@@ -204,7 +204,7 @@ const Services = () => {
                 </h5>
               </Link>
               <p className="mb-3 font-normal text-slate-700 dark:text-slate-400">
-                Montage Vidéo, sonorisation, baptemes , mariage ...
+                Tournage des films, Tournages des evenements,Montage Vidéo, sonorisation, baptêmes , mariage ...
               </p>
               <Link
                 href="/services#media"
