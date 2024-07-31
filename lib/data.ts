@@ -1,3 +1,5 @@
+import { url } from "inspector";
+
 // Nav Links
 export const navLinks = [
     { href: "/", label: "Accueil" },
@@ -105,36 +107,44 @@ export const services = [
 // portfolio
 export const projects = [
     {
-        label: "Template 1",
-        imgURL: "/portfolio/template-1.jpg"
+        label: "Shopify",
+        imgURL: "/portfolio/template-1.jpg",
+        url: "https://fullstack-ecommerce.netlify.app"
     },
     {
-        label: "Template 2",
-        imgURL: "/portfolio/template-2.jpg"
+        label: "Nioso",
+        imgURL: "/portfolio/template-2.jpg",
+        url: "https://niosso.com/cg"
     },
     {
-        label: "Template 3",
-        imgURL: "/portfolio/template-3.jpg"
+        label: " Dryme",
+        imgURL: "/portfolio/template-3.jpg",
+        url: "https://dryvme.com/"
     },
     {
-        label: "Template 4",
-        imgURL: "/portfolio/template-4.jpg"
+        label: "Kojoni",
+        imgURL: "/portfolio/template-4.jpg",
+        url: "https://www.kojoni-prestations.com/"
     },
     {
-        label: "Template 5",
-        imgURL: "/portfolio/template-5.jpg"
+        label: "Zame",
+        imgURL: "/portfolio/template-5.jpg",
+        url: "https://zaame.com/"
     },
     {
-        label: "Template 6",
-        imgURL: "/portfolio/template-6.jpg"
+        label: "My disponibilty",
+        imgURL: "/portfolio/template-6.jpg",
+        url: "https://apps.apple.com/ma/app/my-disponibility/id6450427036"
     },
     {
-        label: "Template 7",
-        imgURL: "/portfolio/template-7.jpg"
+        label: "Playmyground",
+        imgURL: "/portfolio/template-7.jpg",
+        url: "https://play.google.com/store/apps/details?id=com.hlc.playground"
     },
     {
-        label: "Template 8",
-        imgURL: "/portfolio/template-1.jpg"
+        label: "TEasyGo",
+        imgURL: "/portfolio/template-1.jpg",
+        url: "https://apps.apple.com/ma/app/easygo-location-de-voitures/id1661801715"
     },
 ]
 
