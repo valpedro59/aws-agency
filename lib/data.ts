@@ -204,3 +204,65 @@ export const cms = [
     {label: "Développement Magento"},
     {label: "Développement Opencart"},
 ];
+
+
+// slider data
+
+export const sliderData = [
+    {
+        id: 1,
+        title: "Développement Web et mobile",
+        tagline: "Site et application web",
+        image: "/1.png",
+        button: [
+            {
+                id: 1,
+                text: "Contactez-Nous",
+                link: "/contact",
+                type: "btn-outline-blue text-lg dark:hover:shadow-bleu"
+            }
+        ]
+    },
+    {
+        id: 2,
+        title: "Marketing Digital",
+        tagline: "",
+        image: "/2.png",
+        button: [
+            {
+                id: 2,
+                text: "Contactez-Nous",
+                link: "/contact",
+                type: "btn-outline-blue text-lg dark:hover:shadow-bleu"
+            }
+        ]
+    },
+    {
+        id: 3,
+        title: "Conception Graphique & Branding",
+        tagline: "Demarquez vous par votre style",
+        image: "/1.png",
+        button: [
+            {
+                id: 3,
+                text: "Contactez-Nous",
+                link: "/contact",
+                type: "btn-outline-blue text-lg dark:hover:shadow-bleu"
+            }
+        ]
+    },
+    {
+        id: 4,
+        title: "Création Site Internet",
+        tagline: "Site performant et responsive",
+        image: "/2.png",
+        button: [
+            {
+                id: 4,
+                text: "Voir Nos Réalisations",
+                link: "/portfolio",
+                type: "btn-outline-blue text-lg dark:hover:shadow-bleu"
+            }
+        ]
+    },
+]

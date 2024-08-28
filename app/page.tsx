@@ -4,9 +4,12 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import About from "@/components/about";
 import Contact from "@/components/contact";
-import Hero from "@/components/hero";
+// import Hero from "@/components/hero";
 import Services from "@/components/services";
 import WhyUs from "@/components/why-us";
+import Slider from "@/components/ui/Slider";
+import { sliderData } from "@/lib/data";
+import Cta from "@/components/ui/cta";
 
 
 // const variants = {
@@ -37,7 +40,8 @@ export default function Home() {
 
   return (
     <main className="w-full md:items-center  md:justify-center bg-white/[0.96] antialised bg-grid-black/[0.02] relative overflow-hidden dark:bg-slate-900">
-      <Hero />
+      {/* <Hero /> */}
+      <Slider data={sliderData} />
       <section  data-aos="fade-up">
         <About />
       </section>
@@ -48,6 +52,9 @@ export default function Home() {
       data-aos="fade-down"
       >
         <WhyUs />
+      </section>
+      <section data-aos="fade-left" className="bg-white py-10">
+        <Cta />
       </section>
       <section  data-aos="fade-right">
         <Contact />

@@ -12,7 +12,7 @@ const Services = () => {
           <hr className="h-1 w-8 rounded-lg bg-blue-500 mx-auto" />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {/* service Item */}
           <div data-aos="zoom-in" className="max-w-md bg-white border border-slate-200 rounded-lg shadow dark:bg-slate-900 dark:border-slate-700">
             <Link href="/services">
