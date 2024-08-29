@@ -6,7 +6,7 @@ const Services = () => {
     <section className="w-full bg-white/[0.96] dark:bg-slate-800 min-h-screen flex items-center">
       <div className="max-w-screen-xl mx-auto items-center space-y-8 p-11">
         <div className="flex flex-col gap-4">
-          <h2 className="text-center text-4xl text-slate-900 dark:text-white font-semibold">
+          <h2 className="text-center text-4xl tracking-widest uppercase text-slate-900 dark:text-white font-semibold">
             Que faisons nous ?
           </h2>
           <hr className="h-1 w-8 rounded-lg bg-blue-500 mx-auto" />

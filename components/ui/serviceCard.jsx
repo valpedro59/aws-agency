@@ -2,7 +2,8 @@ import Image from "next/image";
 
 const ServiceCard = ({name, imgURL, subtext, option, label}) => {
     return ( 
-        <div className="flex flex-col md:flex-row p-8 items-center justify-center gap-8 rounded-lg shadow-md">
+        <div className="flex flex-col md:flex-row p-8 items-center justify-center gap-8 h-full w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100
+">
             {/* Left */}
             <div className="flex flex-col gap-8">
                 <h1>{name}</h1>

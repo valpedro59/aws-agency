@@ -1,5 +1,6 @@
 "use client";
 import Contact from "@/components/contact";
+import Cta from "@/components/ui/cta";
 import { services } from "@/lib/data";
 import Image from "next/image";
 import Link from "next/link";
@@ -22,7 +23,7 @@ const  page = () => {
                 {/*Developpement Web  */}
                 <div className="py-10 space-y-8 px-8">
                 {services.map((service) => (
-                    <div key={service.id} id={service.id} data-aos="fade-up-right" className="bg-blue-200 border-slate-200  dark:bg-transparent dark:border-slate-700 max-w-screen-xl mx-auto flex flex-col md:flex-row p-8 items-center justify-between gap-8 rounded-lg shadow-md">
+                    <div key={service.id} id={service.id} data-aos="fade-up-right" className="bg-blue-200 border-slate-200  dark:bg-transparent dark:border-slate-700 max-w-screen-xl mx-auto flex flex-col md:flex-row p-8 items-center justify-between gap-8">
                     <div className="max-w-xl  flex flex-col gap-8">
                         <h1 className="text-3xl text-slate-900 font-bold dark:text-slate-100 uppercase tracking-wider">{service.name}</h1>
                         <p className="text-xl text-slate-600 dark:text-slate-300">{service.subtext}</p>
@@ -38,7 +39,7 @@ const  page = () => {
                     </div>
                 ))}
                 </div>
-
+                <Cta />
                 <Contact />
         </div>
         </section>

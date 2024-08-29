@@ -9,9 +9,9 @@ interface ButtonProps {
 }
 
 const SliderButtons: React.FC<{ button: ButtonProps[] }> = ({ button }) => {
-  return button.map(({ id, link, text }) => (
-    <Link target="_blank" key={id} href={link}>
-      <span>{text}</span>
+  return button.map(({ id, link, type,  text }) => (
+    <Link target="_blank" key={id} href={link} className={type}>
+      {text}
     </Link>
   ));
 };

@@ -34,7 +34,7 @@ const Contact: FC = () => {
   return (
     <section className="bg-white dark:bg-slate-900 rounded-lg mb-9">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-lg">
-        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-slate-900 dark:text-white">
+        <h2 className="mb-4 text-4xl tracking-widest uppercase font-extrabold text-center text-slate-900 dark:text-white">
           Contactez-Nous
         </h2>
         <p className="mb-8 lg:mb-16 font-light text-center text-slate-500 dark:text-slate-400 sm:text-xl">
@@ -44,7 +44,7 @@ const Contact: FC = () => {
 
         {/* Formulaire */}
         <form onSubmit={handleSubmit(onSubmit)} noValidate className="space-y-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8" data-aos="fade-up">
             <div>
               <label
                 htmlFor="nom"
@@ -78,7 +78,7 @@ const Contact: FC = () => {
               <p className="text-red-900 mt-1 text-sm">{errors.email?.message}</p>
             </div>
           </div>
-          <div>
+          <div data-aos="fade-up">
             <label
               htmlFor="phone"
               className="block mb-2 text-sm font-medium text-slate-900 dark:text-slate-300"
@@ -95,7 +95,7 @@ const Contact: FC = () => {
             />
             <p className="text-red-900 mt-1 text-sm">{errors.phone?.message}</p>
           </div>
-          <div>
+          <div data-aos="fade-up">
             <label
               htmlFor="sujet"
               className="block mb-2 text-sm font-medium text-slate-900 dark:text-slate-300"
@@ -116,7 +116,7 @@ const Contact: FC = () => {
             </select>
             <p className="text-red-900 mt-1 text-sm">{errors.sujet?.message}</p>
           </div>
-          <div className="sm:col-span-2">
+          <div className="sm:col-span-2" data-aos="fade-up">
             <label
               htmlFor="message"
               className="block mb-2 text-sm font-medium text-slate-900 dark:text-slate-400"

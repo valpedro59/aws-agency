@@ -15,9 +15,9 @@ const WhyUs = () => {
 
                 <p className="mb-8 lg:mb-16 font-light text-center text-slate-500 dark:text-slate-700 sm:text-xl">Nous aidons les marques à se développer en concevant et en développant des idées stratégiques et de la créativité dans collaboration pour atteindre les objectifs.</p>
 
-                <div className='flex bg-slate-200 flex-col gap-6  lg:gap-10 rounded-lg shadow-lg py-10 px-6'>
+                <div className='flex bg-slate-200 flex-col gap-6  lg:gap-10 rounded-lg shadow-lg py-10 px-6' data-aos="fade-up">
                     <div className="flex flex-col-reverse gap-6  lg:flex-row lg:gap-2">
-                        <div className='flex flex-col space-y-4 lg:w-[50%]'>
+                        <div className='flex flex-col space-y-4 lg:w-[50%]' data-aos="fade-right">
                             <div className='flex justify-center items-center gap-8'>
                                 <div>
                                     <span><FontAwesomeIcon icon={faLightbulb} className='text-slate-600 text-3xl'/></span>
@@ -59,7 +59,7 @@ const WhyUs = () => {
                             </div>
                         </div>
 
-                        <div className='lg:w-[50%]'>
+                        <div className='lg:w-[50%]' data-aos="fade-left">
                             <div>
                                 <Image src='/project.webp' alt='Project' width={520} height={620} className='rounded-xl object-cover'/>
                             </div>
@@ -67,7 +67,7 @@ const WhyUs = () => {
                     </div>
 
                     <div className='text-center'>
-                    <Link href='/contact' className="btn-blue text-lg dark:hover:shadow-bleu">Devis Gratuit</Link>
+                    <Link href='/contact' className="btn-blue text-lg dark:hover:shadow-bleu" data-aos="fade-down">Devis Gratuit</Link>
 
                     </div>
                     

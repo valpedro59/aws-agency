@@ -1,4 +1,5 @@
 import Contact from '@/components/contact';
+import Cta from '@/components/ui/cta';
 import { projects } from '@/lib/data';
 import { Metadata } from 'next';
 import Image from 'next/image';
@@ -47,6 +48,7 @@ const page = () => {
                         ))}
                     </div>
                 </div>
+                <Cta />
                 <Contact />
 
         </div>

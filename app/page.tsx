@@ -32,6 +32,7 @@ export default function Home() {
     AOS.init({
       // Ajoutez ici vos options de configuration AOS
       // Par exemple :
+      once: true,
       duration: 800,
       easing: "ease-in-out",
       // ...d'autres options
@@ -53,7 +54,7 @@ export default function Home() {
       >
         <WhyUs />
       </section>
-      <section data-aos="fade-left" className="bg-white py-10">
+      <section data-aos="fade-left" className="bg-transparent py-10">
         <Cta />
       </section>
       <section  data-aos="fade-right">

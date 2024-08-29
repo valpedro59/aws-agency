@@ -17,6 +17,7 @@ interface slide {
   title: string;
   tagline: string;
   image: string;
+  imgUrl: string;
   button: ButtonProps[];
 }
 
@@ -41,26 +42,28 @@ const Slider: React.FC<SliderProps> = ({data}) => {
           loop={true}
           modules={[Autoplay, Navigation, Pagination]}
         >
-          {data.map(({ id, image, tagline, title, button }) => (
+          {data.map(({ id, image, tagline, title, imgUrl, button }) => (
             <SwiperSlide key={id}>
                  <div
-                  className={`h-[100vh] w-full relative center cover bg-no-repeat flex flex-col justify-center items-center`}
+                  className={`h-[100vh] w-full relative center cover bg-no-repeat flex flex-col-reverse md:flex-row gap-4 justify-center items-center`}
                   style={{background: `url(${image})`}}
                 >
                   <div className="text-center">
-                    <p className="text-3xl sm:text-6xl lg:text-8xl mb-5 font-bold uppercase tracking-tighter text-white">
+                    <p className="text-3xl sm:text-6xl lg:text-6xl mb-5 font-bold uppercase tracking-tighter text-white">
                       {title}
                     </p>
                     {tagline && (
-                      <p className="text-md sm:text-xl lg:text-3xl font-semibold text-white">
+                      <p className="text-md sm:text-xl lg:text-2xl font-medium text-white mb-10">
                         {tagline}
                       </p>
                     )}
                     {button.length > 0 ? (
-                      <p className=" bg-gray-800 inline-block px-9 py-2 rounded-full text-white mt-10 lg:mt-20">
+                      
                         <SliderButtons button={button} />
-                      </p>
                     ) : null}
+                  </div>
+                  <div className="bg-teal-200 rounded-full bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10">
+                    <Image src={imgUrl} width={500} height={620} alt="image"/>
                   </div>
                 </div>
             </SwiperSlide>

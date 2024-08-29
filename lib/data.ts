@@ -211,9 +211,10 @@ export const cms = [
 export const sliderData = [
     {
         id: 1,
-        title: "Développement Web et mobile",
-        tagline: "Site et application web",
+        title: "Développement mobile",
+        tagline: "Création application Android et IOS",
         image: "/1.png",
+        imgUrl: "/mob.png",
         button: [
             {
                 id: 1,
@@ -226,8 +227,9 @@ export const sliderData = [
     {
         id: 2,
         title: "Marketing Digital",
-        tagline: "",
+        tagline: "Atteignez vos objectifs en augmentant votre visibilité",
         image: "/2.png",
+        imgUrl: "/marketing.png",
         button: [
             {
                 id: 2,
@@ -239,9 +241,10 @@ export const sliderData = [
     },
     {
         id: 3,
-        title: "Conception Graphique & Branding",
+        title: "Conception Graphique",
         tagline: "Demarquez vous par votre style",
         image: "/1.png",
+        imgUrl: "/graphic.png",
         button: [
             {
                 id: 3,
@@ -254,8 +257,9 @@ export const sliderData = [
     {
         id: 4,
         title: "Création Site Internet",
-        tagline: "Site performant et responsive",
+        tagline: "Site professionnel responsive",
         image: "/2.png",
+        imgUrl: "/web.png",
         button: [
             {
                 id: 4,
