@@ -49,7 +49,7 @@ const Slider: React.FC<SliderProps> = ({data}) => {
                   style={{background: `url(${image})`}}
                 >
                   <div className="text-center">
-                    <p className="text-3xl sm:text-6xl lg:text-6xl mb-5 font-bold uppercase tracking-tighter text-white">
+                    <p className="text-3xl sm:text-6xl lg:text-6xl mb-5 font-bold uppercase tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-teal-500 to-blue-500">
                       {title}
                     </p>
                     {tagline && (
