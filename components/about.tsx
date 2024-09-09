@@ -38,7 +38,7 @@ const About = () => {
 
                     </div> */}
                     <div className="text-center flex flex-col justify-center items-center gap-4" data-aos="fade-right">
-                        <p>Notre équipe est composée de conseillers en communication, de designers, de développeurs, de professionnels du référencement qui mettent tout en oeuvre pour faire de votre projet une réussite.</p>
+                        <p>Notre équipe est composée d'experts en developpement web, en marketing digital et en design  qui mettent tout en oeuvre pour faire de votre projet une réussite.</p>
                         <p>
                         En nous confiant votre projet, vous bénéficierez d&apos;un savoir-faire qui a permis à de nombreux professionnels (PME, TPE, artisans) de valoriser et de faire connaître leur entreprise sur Internet.
                         </p>
